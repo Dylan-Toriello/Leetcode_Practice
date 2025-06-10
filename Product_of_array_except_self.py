@@ -12,7 +12,7 @@ class Solution:
 
         for num in nums:
             if num:
-                prod = num
+                prod *= num
             else:
                 zeroCount +=1
 
